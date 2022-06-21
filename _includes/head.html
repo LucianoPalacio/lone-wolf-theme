@@ -1,0 +1,29 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+        {% if page.layout == "default" %}
+            {{ site.title }} | {{ site.description }}
+        {% else %}
+            {{ page.title }} | {{ site.title }}
+        {% endif %}
+    </title>  
+
+    <meta name="author" content="Test Author">
+
+    <meta property="og:locale" content="en_US">
+    
+    <meta name="description" content="A simple bootstrap based jekyll theme.">
+
+    <meta property="og:description" content="A simple bootstrap based jekyll theme.">
+
+    <meta property="og:site_name" content="Lone Wolf Theme">
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
+        href="{{ '/feed.xml' | relative_url }}">
+
+    {% include head/favicon.html %}
+    {% include head/styles.html %}
+</head>

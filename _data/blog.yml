@@ -1,0 +1,12 @@
+# blog authors
+authors:
+  - name: "Blog Author"
+    headline: "Awesome blogger."
+    avatar: "awesome_author.svg" # display_picture.jpg
+
+# blog post share links
+share:
+  - label: "LinkedIn"
+    url: # link
+  - label: "Twitter"
+    url: # link
